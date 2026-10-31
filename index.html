@@ -4,67 +4,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EL-SEPPY OFFICIAL</title>
+<title>EL-SEPPY | Official</title>
 <style>
-body {
-  margin: 0;
-  background: #101010;
-  color: white;
-  font-family: Arial, sans-serif;
-  text-align: center;
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#080808;
+ color:#fff;
+ font-family:Arial,sans-serif;
 }
-header {
-  padding: 55px 15px;
-  background: linear-gradient(135deg,#111,#4b3500);
+header{
+ padding:22px 15px;
+ text-align:center;
+ border-bottom:1px solid #b58b35;
 }
-h1 {
-  color: gold;
-  font-size: 38px;
+.logo{
+ color:#d9ad50;
+ font-size:34px;
+ font-weight:900;
+ letter-spacing:4px;
 }
-section {
-  padding: 30px 15px;
+header p{color:#aaa;letter-spacing:3px;font-size:11px}
+nav{padding:15px;text-align:center}
+nav a{
+ color:#d9ad50;text-decoration:none;
+ margin:0 9px;font-size:13px;
 }
-a {
-  color: gold;
-  margin: 10px;
+.hero{
+ text-align:center;padding:85px 20px 75px;
+ background:linear-gradient(145deg,#17120a,#080808 65%);
 }
-footer {
-  padding: 20px;
-  color: #aaa;
+.hero h1{font-size:43px;color:#e4bd68;margin:0}
+.hero h2{font-size:17px;letter-spacing:5px;color:#fff}
+.hero p{color:#bbb;line-height:1.7}
+.btn{
+ display:inline-block;margin-top:15px;
+ padding:13px 25px;background:#d5a849;
+ color:#080808;text-decoration:none;
+ font-weight:bold;border-radius:4px;
+}
+section{padding:45px 20px;max-width:850px;margin:auto}
+h2.title{color:#d9ad50;text-align:center;letter-spacing:2px}
+.card{
+ background:#171717;padding:20px;
+ margin:14px 0;border:1px solid #393021;
+ border-radius:8px;
+}
+.card h3{color:#e2b95d;margin-top:0}
+.card p{color:#bbb}
+.social{text-align:center}
+.social a{
+ display:inline-block;color:#e2b95d;
+ border:1px solid #a77e30;padding:10px 15px;
+ margin:6px;text-decoration:none;border-radius:5px;
+}
+footer{
+ text-align:center;padding:25px;
+ color:#888;border-top:1px solid #49391e;
+ font-size:12px;
 }
 </style>
 </head>
 <body>
 
 <header>
-<h1>EL-SEPPY</h1>
-<p>OFFICIAL WEBSITE</p>
-<p>Music • Movies • Entertainment</p>
+ <div class="logo">EL-SEPPY</div>
+ <p>OFFICIAL ARTIST</p>
 </header>
 
-<section>
-<h2>Welcome to EL-SEPPY</h2>
-<p>Welcome to my official website.</p>
-<p>Music, creativity and entertainment.</p>
+<nav>
+ <a href="#home">HOME</a>
+ <a href="#music">MUSIC</a>
+ <a href="#about">ABOUT</a>
+ <a href="#contact">CONTACT</a>
+</nav>
+
+<div class="hero" id="home">
+ <h1>EL-SEPPY</h1>
+ <h2>MUSIC • PASSION • VISION</h2>
+ <p>Welcome to the official world of EL-SEPPY.<br>
+ Music, creativity and entertainment.</p>
+ <a class="btn" href="#music">EXPLORE MY MUSIC</a>
+</div>
+
+<section id="music">
+ <h2 class="title">MY MUSIC</h2>
+ <div class="card">
+  <h3>BURINA</h3>
+  <p>A song by EL-SEPPY</p>
+ </div>
+ <div class="card">
+  <h3>ƘURUCİYA</h3>
+  <p>A song by EL-SEPPY</p>
+ </div>
+ <div class="card">
+  <h3>2WEES</h3>
+  <p>A song by EL-SEPPY</p>
+ </div>
 </section>
 
-<section>
-<h2>MY MUSIC</h2>
-<p>BURINA | ƘURUCİYA | 2WEES</p>
+<section id="about">
+ <h2 class="title">ABOUT EL-SEPPY</h2>
+ <div class="card">
+  <p>EL-SEPPY is an independent music artist
+  passionate about music, creativity and storytelling.
+  Welcome to his official website.</p>
+ </div>
 </section>
 
-<section>
-<h2>MY VIDEOS</h2>
-<p>Movies, Comedy and Entertainment</p>
-</section>
-
-<section>
-<h2>ABOUT EL-SEPPY</h2>
-<p>Welcome to my creative world.</p>
+<section id="contact">
+ <h2 class="title">CONNECT WITH ME</h2>
+ <div class="social">
+  <a href="#">TikTok</a>
+  <a href="#">Facebook</a>
+  <a href="#">YouTube</a>
+ </div>
 </section>
 
 <footer>
-<p>© 2026 EL-SEPPY. All Rights Reserved.</p>
+ © 2026 EL-SEPPY. All Rights Reserved.
 </footer>
 
 </body>
